@@ -15,13 +15,17 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-3">
-				<div class="card card-body h-100  border-info" id="profile-wrapper">
-					<img id="profile-pic" src="{% static 'images/maruf.jpg' %}" >
+				<div class="card card-body h-100 border-info" id="profile-wrapper">
+					<!-- New Wrapper added here -->
+					<div class="profile-img-container">
+						<img id="profile-pic" src="{% static 'images/maruf.jpg' %}" >
+					</div>
 					<hr>
 					<h4>Hi I'm K.MARUF!</h4>
 					<p>I love coding, doing research and collaborating</p>
 				</div>
 			</div>
+			
 
 			<div class="col-md-9">
 				<div class="card card-body h-100  border-info">
